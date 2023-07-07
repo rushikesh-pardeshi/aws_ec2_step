@@ -1,0 +1,62 @@
+###new instance creation
+
+1.name and tag 
+ex - medical_insurance
+2.os selection
+ubantu 20.4 free tier
+64 bit 
+
+instance type
+t2 - micro 
+
+network setting
+edit option
+type - shh
+source type -  anywhere
+
+then click add on security group rule
+type - all traffic
+source type - 
+
+configure type
+30 gb free 
+choose 10 gb gb2 asure     assure free space available or not
+
+###launch instance 
+
+
+#connect to server SHH option
+use git bash in aws key run command
+id will start 
+
+# for update and upgrade os
+sudo apt - get update 
+sudo apt - get upgrade
+
+#install pip
+sudo apt install python3 - pip
+
+#check get version
+git --version
+
+#git clone
+git clone respositry file name
+use personal token as password copy paste it 
+
+#check git file present or not
+ls 
+
+#change dir
+cd to file
+
+#install requirement txt file
+pip install -r requirement.txt (only required labiray)
+
+# run falsk file 
+python3 app.py (example)
+
+#to run continous in server
+ nohup python3 app.py (example)
+
+ #to stop server in background
+ ps - ef | grep python3
