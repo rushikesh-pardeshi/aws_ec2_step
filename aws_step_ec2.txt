@@ -16,7 +16,7 @@ source type -  anywhere
 
 then click add on security group rule
 type - all traffic
-source type - 
+source type - anywhere
 
 configure type
 30 gb free 
