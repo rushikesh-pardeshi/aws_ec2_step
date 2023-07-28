@@ -46,6 +46,8 @@ use personal token as password copy paste it
 #check git file present or not
 ls 
 
+#exit() use to exit from current file
+
 #change dir
 cd to file
 
